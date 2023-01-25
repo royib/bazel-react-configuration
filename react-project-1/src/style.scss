@@ -1,0 +1,10 @@
+$body-color: red;
+
+.title {
+  color: $body-color;
+  .adj-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+}

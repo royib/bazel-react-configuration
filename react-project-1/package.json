@@ -1,0 +1,38 @@
+{
+  "name": "react-project-1",
+  "version": "1.0.0",
+  "description": "Simple step by step walkthrough of setting up a React app with Bazel",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "test": "jest --no-watchman",
+    "bazel-test": "bazel test test_web",
+    "bazel-build": "bazel build react-project-1-bundle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@svgr/webpack": "^6.5.1",
+    "babel-jest": "29.3.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest-junit": "15.0.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.1"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
